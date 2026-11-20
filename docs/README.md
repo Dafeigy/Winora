@@ -11,6 +11,7 @@
 
 - `docs.go`、`swagger.json`、`swagger.yaml` 与契约/同步测试：参与后端编译和测试，`swagger.json` 与 `swagger.yaml` 由 `make docs` 生成，`docs.go` 通过 `//go:embed swagger.json` 加载。
 - `LITE.md`：Lite 发布包复制为离线 README。
+- [`design/`](design/)：尚未迁入产品文档的工程设计稿，包括 [Tauri 2 远端服务桌面端开发方案](design/tauri2-remote-desktop.md)。
 - `images/`、`assets/`：README、Helm 等仍使用的图片资源。
 - `poc/docker-sandbox/`：独立 Go 实验模块，保留源码和运行说明，不作为当前产品指南。
 
